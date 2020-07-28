@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GOFDemo:war">
+    <output-path>$PROJECT_DIR$/GOFDemo/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>GOFDemo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="GOFDemo.war">
+      <element id="artifact" artifact-name="GOFDemo:war exploded" />
+    </root>
+  </artifact>
+</component>
