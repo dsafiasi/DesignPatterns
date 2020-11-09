@@ -1,4 +1,4 @@
-package DynamicProxyDemo;
+package ProxyDemo.DynamicProxyDemo;
 
 public class Service implements IService{
     /**

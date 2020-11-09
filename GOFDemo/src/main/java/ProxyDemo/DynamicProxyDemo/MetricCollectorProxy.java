@@ -1,8 +1,9 @@
-package DynamicProxyDemo;
+package ProxyDemo.DynamicProxyDemo;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+
 
 public class MetricCollectorProxy {
     private class DynamicProxyHandler implements InvocationHandler {

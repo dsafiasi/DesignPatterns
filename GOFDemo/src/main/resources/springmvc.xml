@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <!-- 扫描相关业务类 -->
+    <component-scan base-package="D:\coding\DesignPatterns\GOFDemo\src\main\java\MySpringMVC"></component-scan>
+
+    <!-- 配置视图解析器 -->
+    <bean class="D:\coding\DesignPatterns\GOFDemo\src\main\java\MySpringMVC\MyViewResolver.java">
+        <property name="prefix" value="/"></property>
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+
+</beans>
+
